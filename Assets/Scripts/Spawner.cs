@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CircleInstantiate : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _prefab;
+    [SerializeField] private Enemy _prefab;
     [SerializeField] private Transform _respawnPoints;
 
     private Transform[] _respawns;
@@ -30,7 +30,7 @@ public class CircleInstantiate : MonoBehaviour
         {
             for (int i = 0; i < _respawns.Length; i++)
             {
-                GameObject bot = Instantiate(_prefab, _respawns[i].position, Quaternion.identity);
+                GameObject bot = Instantiate(_prefab.gameObject, _respawns[i].position, Quaternion.identity);
 
                 yield return waitForSeconds;
             }
