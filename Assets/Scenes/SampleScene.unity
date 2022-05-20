@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a58982071ab91d46ae193aed4142986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 2871989702678912550, guid: fbd0a56617b76fb47b6dbd313c3d4f74, type: 3}
+  _prefab: {fileID: -3375094724153919834, guid: fbd0a56617b76fb47b6dbd313c3d4f74, type: 3}
   _respawnPoints: {fileID: 846943459}
 --- !u!1 &614344243
 GameObject:
@@ -3153,7 +3153,7 @@ GameObject:
   - component: {fileID: 915183936}
   - component: {fileID: 915183938}
   m_Layer: 0
-  m_Name: Target
+  m_Name: Finish
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
